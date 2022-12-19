@@ -1,1 +1,2091 @@
-{"version":0.5,"uid":"@TREE-6c3ed4-598-1ec53ea-2","object_class":"Scene","external_repository":null,"extra":{"editor":{"selected_node":"@NODE-6c3ed4-980a9-1cea92c-2d"},"viewport_layout":{"mode":1,"viewports":[{"name":"perspective","viewport":[0,0,1,1],"render_settings":null,"editor_camera":{"object_class":"Camera","uid":"@CAM6c3ed4-991-1812f9c-9","layers":255,"enabled":true,"type":1,"eye":[-2.349058151245117,197.97860717773438,535.0230712890625],"center":[8.698617935180664,129.05528259277344,-239.57647705078125],"up":[0,1,0],"near":0.1,"far":10000,"fov":45,"aspect":1,"orthographic":[-1,1,-1,1],"background_color":[0,0,0,1],"frustum_size":50,"viewport":[0,0,1,1],"render_to_texture":false,"frame":null,"show_frame":true,"clear_color":true,"clear_depth":true},"scene_camera":null}]}},"root":{"object_class":"SceneNode","name":"root","uid":"@NODE-6c3ed4-9bd-1e19ae0-a","layers":3,"flags":{"visible":true,"is_static":false,"selectable":true,"locked":false},"children":[{"object_class":"SceneNode","name":"arms","uid":"@NODE-6c3ed4-d446-18011f1-10","layers":3,"material":{"uid":"@MAT-6c3ed4-2be76-17d2ad8-15","uvs_matrix":[1,0,0,0,1,0,0,0,1],"textures":{"color":{"texture":"Main/hands_white_diffuse.png","uvs":0,"wrap":0,"minFilter":0,"magFilter":0,"missing":"white","_must_update":true,"index":0}},"flags":{"alpha_test":false,"alpha_test_shadows":false,"two_sided":false,"flip_normals":false,"depth_test":true,"depth_write":true,"ignore_lights":false,"cast_shadows":true,"receive_shadows":true,"ignore_frustum":false},"color":[1,1,1],"opacity":1,"queue":-1,"render_state":{"front_face":2305,"cull_face":true,"cull_face_mode":0,"depth_test":true,"depth_mask":true,"depth_func":513,"depth_range":[0,0],"blend":false,"blendFunc0":770,"blendFunc1":771,"colorMask0":true,"colorMask1":true,"colorMask2":true,"colorMask3":true,"stencil_test":false,"stencil_mask":255,"skip_blend":false,"skip_depth":false,"skip_stencil":false,"stencil_func_func":519,"stencil_func_ref":0,"stencil_func_mask":255,"stencil_op_sfail":7680,"stencil_op_dpfail":7680,"stencil_op_dppass":7680,"flags":0},"blend_mode":2,"diffuse":[1,1,1],"ambient":[1,1,1],"emissive":[0,0,0,0],"specular_on_top":false,"specular_on_alpha":false,"backlight_factor":0,"translucency":0,"reflection_factor":0,"reflection_fresnel":1,"reflection_specular":false,"velvet":[0.5,0.5,0.5],"velvet_exp":0,"velvet_additive":false,"normalmap_factor":1,"normalmap_tangent":true,"bumpmap_factor":1,"displacementmap_factor":0.1,"use_scene_ambient":true,"point_size":1,"extra":[0,0,0,1],"needsUpdate":true,"detail_factor":0,"detail_scale":[10,10],"emissive_extra":0,"specular_factor":0.10000000149011612,"specular_gloss":10,"renderShadowInstance":null,"material_class":"StandardMaterial"},"flags":{"visible":true,"is_static":false,"selectable":true,"locked":false},"components":[["Transform",{"object_class":"Transform","uid":"@COMP-6c3ed4-d446-1934af7-11","position":[0,0,0],"rotation":[0,0,0,1],"scaling":[7.04691219329834,6.685871124267578,6.046027183532715],"matrix":[7.04691219329834,0,0,0,0,6.685871124267578,0,0,0,0,6.046027183532715,0,0,0,0,1]}],["MeshRenderer",{"object_class":"MeshRenderer","enabled":true,"uid":"@COMP-6c3ed4-d447-10f9772-13","mesh":"demogorgon_(stranger_things).obj.wbin","lod_mesh":"demogorgon_(stranger_things).obj.wbin","submesh_id":0,"submaterials":[]}]]},{"object_class":"SceneNode","name":"teeth","uid":"@NODE-6c3ed4-61d18-13f9100-1c","layers":3,"material":{"uid":"@MAT-6c3ed4-61d19-13e6ea7-1d","uvs_matrix":[1,0,0,0,1,0,0,0,1],"textures":{"color":{"texture":"demogorgon_(stranger_things)_miqkteeth00_g.png","uvs":0,"wrap":0,"minFilter":0,"magFilter":0,"missing":"white","_must_update":true,"index":0}},"flags":{"alpha_test":false,"alpha_test_shadows":false,"two_sided":false,"flip_normals":false,"depth_test":true,"depth_write":true,"ignore_lights":false,"cast_shadows":true,"receive_shadows":true,"ignore_frustum":false},"color":[1,1,1],"opacity":1,"queue":-1,"render_state":{"front_face":2305,"cull_face":true,"cull_face_mode":0,"depth_test":true,"depth_mask":true,"depth_func":513,"depth_range":[0,0],"blend":false,"blendFunc0":770,"blendFunc1":771,"colorMask0":true,"colorMask1":true,"colorMask2":true,"colorMask3":true,"stencil_test":false,"stencil_mask":255,"skip_blend":false,"skip_depth":false,"skip_stencil":false,"stencil_func_func":519,"stencil_func_ref":0,"stencil_func_mask":255,"stencil_op_sfail":7680,"stencil_op_dpfail":7680,"stencil_op_dppass":7680,"flags":0},"blend_mode":2,"diffuse":[1,1,1],"ambient":[1,1,1],"emissive":[0,0,0,0],"specular_on_top":false,"specular_on_alpha":false,"backlight_factor":0,"translucency":0,"reflection_factor":0,"reflection_fresnel":1,"reflection_specular":false,"velvet":[0.5,0.5,0.5],"velvet_exp":0,"velvet_additive":false,"normalmap_factor":1,"normalmap_tangent":true,"bumpmap_factor":1,"displacementmap_factor":0.1,"use_scene_ambient":true,"point_size":1,"extra":[0,0,0,1],"needsUpdate":true,"detail_factor":0,"detail_scale":[10,10],"emissive_extra":0,"specular_factor":0.10000000149011612,"specular_gloss":10,"renderShadowInstance":null,"material_class":"StandardMaterial"},"flags":{"visible":true,"is_static":false,"selectable":true,"locked":false},"components":[["Transform",{"object_class":"Transform","uid":"@COMP-6c3ed4-61d16-185c776-1b","position":[0,0,0],"rotation":[0,0,0,1],"scaling":[7.04691219329834,6.685871124267578,6.046027183532715],"matrix":[7.04691219329834,0,0,0,0,6.685871124267578,0,0,0,0,6.046027183532715,0,0,0,0,1]}],["MeshRenderer",{"object_class":"MeshRenderer","enabled":true,"uid":"@COMP-6c3ed4-61d1e-1e456e5-1f","mesh":"demogorgon_(stranger_things).obj.wbin","lod_mesh":"demogorgon_(stranger_things).obj.wbin","submesh_id":3,"submaterials":[]}]]},{"object_class":"SceneNode","name":"body","uid":"@NODE-6c3ed4-7b970-10cdefd-22","layers":3,"material":{"uid":"@MAT-6c3ed4-7b972-1b81d35-23","uvs_matrix":[1,0,0,0,1,0,0,0,1],"textures":{"color":{"texture":"chest_white_diffuse.png","uvs":0,"wrap":0,"minFilter":0,"magFilter":0,"missing":"white","_must_update":true,"index":0}},"flags":{"alpha_test":false,"alpha_test_shadows":false,"two_sided":false,"flip_normals":false,"depth_test":true,"depth_write":true,"ignore_lights":false,"cast_shadows":true,"receive_shadows":true,"ignore_frustum":false},"color":[1,1,1],"opacity":1,"queue":-1,"render_state":{"front_face":2305,"cull_face":true,"cull_face_mode":0,"depth_test":true,"depth_mask":true,"depth_func":513,"depth_range":[0,0],"blend":false,"blendFunc0":770,"blendFunc1":771,"colorMask0":true,"colorMask1":true,"colorMask2":true,"colorMask3":true,"stencil_test":false,"stencil_mask":255,"skip_blend":false,"skip_depth":false,"skip_stencil":false,"stencil_func_func":519,"stencil_func_ref":0,"stencil_func_mask":255,"stencil_op_sfail":7680,"stencil_op_dpfail":7680,"stencil_op_dppass":7680,"flags":0},"blend_mode":2,"diffuse":[1,1,1],"ambient":[1,1,1],"emissive":[0,0,0,0],"specular_on_top":false,"specular_on_alpha":false,"backlight_factor":0,"translucency":0,"reflection_factor":0,"reflection_fresnel":1,"reflection_specular":false,"velvet":[0.5,0.5,0.5],"velvet_exp":0,"velvet_additive":false,"normalmap_factor":1,"normalmap_tangent":true,"bumpmap_factor":1,"displacementmap_factor":0.1,"use_scene_ambient":true,"point_size":1,"extra":[0,0,0,1],"needsUpdate":true,"detail_factor":0,"detail_scale":[10,10],"emissive_extra":0,"specular_factor":0.10000000149011612,"specular_gloss":10,"renderShadowInstance":null,"material_class":"StandardMaterial"},"flags":{"visible":true,"is_static":false,"selectable":true,"locked":false},"components":[["Transform",{"object_class":"Transform","uid":"@COMP-6c3ed4-7b96f-12bb839-21","position":[0,0,0],"rotation":[0,0,0,1],"scaling":[7.04691219329834,6.685871124267578,6.046027183532715],"matrix":[7.04691219329834,0,0,0,0,6.685871124267578,0,0,0,0,6.046027183532715,0,0,0,0,1]}],["MeshRenderer",{"object_class":"MeshRenderer","enabled":true,"uid":"@COMP-6c3ed4-7b977-1923f03-25","mesh":"demogorgon_(stranger_things).obj.wbin","lod_mesh":"demogorgon_(stranger_things).obj.wbin","submesh_id":1,"submaterials":[]}]]},{"object_class":"SceneNode","name":"head","uid":"@NODE-6c3ed4-980a9-1cea92c-2d","layers":3,"material":{"uid":"@MAT-6c3ed4-980a9-1647002-2e","uvs_matrix":[1,0,0,0,1,0,0,0,1],"textures":{"color":{"texture":"mouth_white_diffuse.png","uvs":0,"wrap":0,"minFilter":0,"magFilter":0,"missing":"white","_must_update":true,"index":0}},"flags":{"alpha_test":false,"alpha_test_shadows":false,"two_sided":false,"flip_normals":false,"depth_test":true,"depth_write":true,"ignore_lights":false,"cast_shadows":true,"receive_shadows":true,"ignore_frustum":false},"color":[1,1,1],"opacity":1,"queue":-1,"render_state":{"front_face":2305,"cull_face":true,"cull_face_mode":0,"depth_test":true,"depth_mask":true,"depth_func":513,"depth_range":[0,0],"blend":false,"blendFunc0":770,"blendFunc1":771,"colorMask0":true,"colorMask1":true,"colorMask2":true,"colorMask3":true,"stencil_test":false,"stencil_mask":255,"skip_blend":false,"skip_depth":false,"skip_stencil":false,"stencil_func_func":519,"stencil_func_ref":0,"stencil_func_mask":255,"stencil_op_sfail":7680,"stencil_op_dpfail":7680,"stencil_op_dppass":7680,"flags":0},"blend_mode":2,"diffuse":[1,1,1],"ambient":[1,1,1],"emissive":[0,0,0,0],"specular_on_top":false,"specular_on_alpha":false,"backlight_factor":0,"translucency":0,"reflection_factor":0,"reflection_fresnel":1,"reflection_specular":false,"velvet":[0.5,0.5,0.5],"velvet_exp":0,"velvet_additive":false,"normalmap_factor":1,"normalmap_tangent":true,"bumpmap_factor":1,"displacementmap_factor":0.1,"use_scene_ambient":true,"point_size":1,"extra":[0,0,0,1],"needsUpdate":true,"detail_factor":0,"detail_scale":[10,10],"emissive_extra":0,"specular_factor":0.10000000149011612,"specular_gloss":10,"renderShadowInstance":null,"material_class":"StandardMaterial"},"flags":{"visible":true,"is_static":false,"selectable":true,"locked":false},"components":[["Transform",{"object_class":"Transform","uid":"@COMP-6c3ed4-980a8-1f9492a-2c","position":[0,0,0],"rotation":[0,0,0,1],"scaling":[7.046999931335449,6.685999870300293,6.046000003814697],"matrix":[7.046999931335449,0,0,0,0,6.685999870300293,0,0,0,0,6.046000003814697,0,0,0,0,1]}],["MeshRenderer",{"object_class":"MeshRenderer","enabled":true,"uid":"@COMP-6c3ed4-980aa-1ff91a4-30","mesh":"demogorgon_(stranger_things).obj.wbin","lod_mesh":"demogorgon_(stranger_things).obj.wbin","submesh_id":2,"submaterials":[]}]]},{"object_class":"SceneNode","name":"ground","uid":"@NODE-6c3ed4-16eef6-1c62e76-16d","layers":3,"material":{"uid":"@MAT-6c3ed4-1940ce-14199f1-172","uvs_matrix":[1,0,0,0,1,0,0,0,1],"textures":{"color":{"texture":"360_f_242339385_5ukgrwzbgvlsjjisgmysqeztqq1j6pt2.jpg","uvs":0,"wrap":0,"minFilter":0,"magFilter":0,"missing":"white","_must_update":true}},"flags":{"alpha_test":false,"alpha_test_shadows":false,"two_sided":false,"flip_normals":false,"depth_test":true,"depth_write":true,"ignore_lights":false,"cast_shadows":true,"receive_shadows":true,"ignore_frustum":false},"color":[1,1,1],"opacity":1,"queue":-1,"render_state":{"front_face":2305,"cull_face":true,"cull_face_mode":0,"depth_test":true,"depth_mask":true,"depth_func":513,"depth_range":[0,0],"blend":false,"blendFunc0":770,"blendFunc1":771,"colorMask0":true,"colorMask1":true,"colorMask2":true,"colorMask3":true,"stencil_test":false,"stencil_mask":255,"skip_blend":false,"skip_depth":false,"skip_stencil":false,"stencil_func_func":519,"stencil_func_ref":0,"stencil_func_mask":255,"stencil_op_sfail":7680,"stencil_op_dpfail":7680,"stencil_op_dppass":7680,"flags":0},"blend_mode":2,"diffuse":[1,1,1],"ambient":[1,1,1],"emissive":[0,0,0,0],"specular_on_top":false,"specular_on_alpha":false,"backlight_factor":0,"translucency":0,"reflection_factor":0,"reflection_fresnel":1,"reflection_specular":false,"velvet":[0.5,0.5,0.5],"velvet_exp":0,"velvet_additive":false,"normalmap_factor":1,"normalmap_tangent":true,"bumpmap_factor":1,"displacementmap_factor":0.1,"use_scene_ambient":true,"point_size":1,"extra":[0,0,0,1],"needsUpdate":true,"detail_factor":0,"detail_scale":[10,10],"emissive_extra":0,"specular_factor":0.10000000149011612,"specular_gloss":10,"renderShadowInstance":null,"material_class":"StandardMaterial"},"flags":{"visible":true,"is_static":false,"selectable":true,"locked":false},"components":[["Transform",{"object_class":"Transform","uid":"@COMP-6c3ed4-16eef6-11bfc3d-16e","position":[349.304443359375,3123.52392578125,3073.263427734375],"rotation":[-0.00026364997029304504,0.014544417150318623,-0.01812233403325081,0.9997299313545227],"scaling":[76.47595977783203,66.73668670654297,1],"matrix":[76.39337158203125,-2.771683692932129,-2.2232649326324463,0,2.4176840782165527,66.69284057617188,-0.07036149501800537,0,0.029090534895658493,-3.842865609060553e-11,0.9995768070220947,0,349.304443359375,3123.52392578125,3073.263427734375,1]}],["Sprite",{"enabled":true,"texture":"360_f_242339385_5ukgrwzbgvlsjjisgmysqeztqq1j6pt2.jpg","blend_mode":3,"frame":null,"flip_x":false,"filtering":true,"size":[100,100],"area":[0,0,1,1],"atlas":null,"uid":"@COMP-6c3ed4-17338f-1bcb0fe-16f","object_class":"Sprite"}]]},{"object_class":"SceneNode","name":"ground","uid":"@NODE-6c3ed4-1c326c-13a5cbe-1a7","layers":3,"material":{"uid":"@MAT-6c3ed4-1c326c-113c878-1a8","uvs_matrix":[1,0,0,0,1,0,0,0,1],"textures":{"color":{"texture":"360_f_242339385_5ukgrwzbgvlsjjisgmysqeztqq1j6pt2.jpg","uvs":0,"wrap":0,"minFilter":0,"magFilter":0,"missing":"white","_must_update":true}},"flags":{"alpha_test":false,"alpha_test_shadows":false,"two_sided":false,"flip_normals":false,"depth_test":true,"depth_write":true,"ignore_lights":false,"cast_shadows":true,"receive_shadows":true,"ignore_frustum":false},"color":[1,1,1],"opacity":1,"queue":-1,"render_state":{"front_face":2305,"cull_face":true,"cull_face_mode":0,"depth_test":true,"depth_mask":true,"depth_func":513,"depth_range":[0,0],"blend":false,"blendFunc0":770,"blendFunc1":771,"colorMask0":true,"colorMask1":true,"colorMask2":true,"colorMask3":true,"stencil_test":false,"stencil_mask":255,"skip_blend":false,"skip_depth":false,"skip_stencil":false,"stencil_func_func":519,"stencil_func_ref":0,"stencil_func_mask":255,"stencil_op_sfail":7680,"stencil_op_dpfail":7680,"stencil_op_dppass":7680,"flags":0},"blend_mode":2,"diffuse":[1,1,1],"ambient":[1,1,1],"emissive":[0,0,0,0],"specular_on_top":false,"specular_on_alpha":false,"backlight_factor":0,"translucency":0,"reflection_factor":0,"reflection_fresnel":1,"reflection_specular":false,"velvet":[0.5,0.5,0.5],"velvet_exp":0,"velvet_additive":false,"normalmap_factor":1,"normalmap_tangent":true,"bumpmap_factor":1,"displacementmap_factor":0.1,"use_scene_ambient":true,"point_size":1,"extra":[0,0,0,1],"needsUpdate":true,"detail_factor":0,"detail_scale":[10,10],"emissive_extra":0,"specular_factor":0.10000000149011612,"specular_gloss":10,"renderShadowInstance":null,"material_class":"StandardMaterial"},"flags":{"visible":true,"is_static":false,"selectable":true,"locked":false},"components":[["Transform",{"object_class":"Transform","uid":"@COMP-6c3ed4-1c326b-1249f63-1a6","position":[3465.62548828125,2576.491943359375,152.8856964111328],"rotation":[0.012137112207710743,0.7069787383079529,-0.013457419350743294,0.7070026397705078],"scaling":[90.80812072753906,66.73668670654297,1],"matrix":[-0.000007002229722274933,-0.16958428919315338,-90.80796813964844,0,2.415215492248535,66.6928482055664,-0.12454921007156372,0,0.9993450045585632,-0.03619015961885452,0.00006750817556167021,0,3465.62548828125,2576.491943359375,152.8856964111328,1]}],["Sprite",{"enabled":true,"texture":"360_f_242339385_5ukgrwzbgvlsjjisgmysqeztqq1j6pt2.jpg","blend_mode":3,"frame":null,"flip_x":false,"filtering":true,"size":[100,100],"area":[0,0,1,1],"atlas":null,"uid":"@COMP-6c3ed4-1c326c-12d97d8-1a9","object_class":"Sprite"}]]},{"object_class":"SceneNode","name":"ground","uid":"@NODE-6c3ed4-200faf-15e0c98-1b5","layers":3,"material":{"uid":"@MAT-6c3ed4-200faf-189d3e2-1b6","uvs_matrix":[1,0,0,0,1,0,0,0,1],"textures":{"color":{"texture":"360_f_242339385_5ukgrwzbgvlsjjisgmysqeztqq1j6pt2.jpg","uvs":0,"wrap":0,"minFilter":0,"magFilter":0,"missing":"white","_must_update":true}},"flags":{"alpha_test":false,"alpha_test_shadows":false,"two_sided":false,"flip_normals":false,"depth_test":true,"depth_write":true,"ignore_lights":false,"cast_shadows":true,"receive_shadows":true,"ignore_frustum":false},"color":[1,1,1],"opacity":1,"queue":-1,"render_state":{"front_face":2305,"cull_face":true,"cull_face_mode":0,"depth_test":true,"depth_mask":true,"depth_func":513,"depth_range":[0,0],"blend":false,"blendFunc0":770,"blendFunc1":771,"colorMask0":true,"colorMask1":true,"colorMask2":true,"colorMask3":true,"stencil_test":false,"stencil_mask":255,"skip_blend":false,"skip_depth":false,"skip_stencil":false,"stencil_func_func":519,"stencil_func_ref":0,"stencil_func_mask":255,"stencil_op_sfail":7680,"stencil_op_dpfail":7680,"stencil_op_dppass":7680,"flags":0},"blend_mode":2,"diffuse":[1,1,1],"ambient":[1,1,1],"emissive":[0,0,0,0],"specular_on_top":false,"specular_on_alpha":false,"backlight_factor":0,"translucency":0,"reflection_factor":0,"reflection_fresnel":1,"reflection_specular":false,"velvet":[0.5,0.5,0.5],"velvet_exp":0,"velvet_additive":false,"normalmap_factor":1,"normalmap_tangent":true,"bumpmap_factor":1,"displacementmap_factor":0.1,"use_scene_ambient":true,"point_size":1,"extra":[0,0,0,1],"needsUpdate":true,"detail_factor":0,"detail_scale":[10,10],"emissive_extra":0,"specular_factor":0.10000000149011612,"specular_gloss":10,"renderShadowInstance":null,"material_class":"StandardMaterial"},"flags":{"visible":true,"is_static":false,"selectable":true,"locked":false},"components":[["Transform",{"object_class":"Transform","uid":"@COMP-6c3ed4-200fad-170d6d3-1b4","position":[-3171.408203125,2816.8447265625,152.43731689453125],"rotation":[0.012137112207710743,0.7069787383079529,-0.013457419350743294,0.7070026397705078],"scaling":[90.80812072753906,66.73668670654297,1],"matrix":[-0.000007002229722274933,-0.16958428919315338,-90.80796813964844,0,2.415215492248535,66.6928482055664,-0.12454921007156372,0,0.9993450045585632,-0.03619015961885452,0.00006750817556167021,0,-3171.408203125,2816.8447265625,152.43731689453125,1]}],["Sprite",{"enabled":true,"texture":"360_f_242339385_5ukgrwzbgvlsjjisgmysqeztqq1j6pt2.jpg","blend_mode":3,"frame":null,"flip_x":false,"filtering":true,"size":[100,100],"area":[0,0,1,1],"atlas":null,"uid":"@COMP-6c3ed4-200fb4-1563f17-1b7","object_class":"Sprite"}]]},{"object_class":"SceneNode","name":"ground","uid":"@NODE-6c3ed4-1f6335-1d9e0cb-1ae","layers":3,"material":{"uid":"@MAT-6c3ed4-1f6335-12f100b-1af","uvs_matrix":[1,0,0,0,1,0,0,0,1],"textures":{"color":{"texture":"360_f_242339385_5ukgrwzbgvlsjjisgmysqeztqq1j6pt2.jpg","uvs":0,"wrap":0,"minFilter":0,"magFilter":0,"missing":"white","_must_update":true}},"flags":{"alpha_test":false,"alpha_test_shadows":false,"two_sided":false,"flip_normals":false,"depth_test":true,"depth_write":true,"ignore_lights":false,"cast_shadows":true,"receive_shadows":true,"ignore_frustum":false},"color":[1,1,1],"opacity":1,"queue":-1,"render_state":{"front_face":2305,"cull_face":true,"cull_face_mode":0,"depth_test":true,"depth_mask":true,"depth_func":513,"depth_range":[0,0],"blend":false,"blendFunc0":770,"blendFunc1":771,"colorMask0":true,"colorMask1":true,"colorMask2":true,"colorMask3":true,"stencil_test":false,"stencil_mask":255,"skip_blend":false,"skip_depth":false,"skip_stencil":false,"stencil_func_func":519,"stencil_func_ref":0,"stencil_func_mask":255,"stencil_op_sfail":7680,"stencil_op_dpfail":7680,"stencil_op_dppass":7680,"flags":0},"blend_mode":2,"diffuse":[1,1,1],"ambient":[1,1,1],"emissive":[0,0,0,0],"specular_on_top":false,"specular_on_alpha":false,"backlight_factor":0,"translucency":0,"reflection_factor":0,"reflection_fresnel":1,"reflection_specular":false,"velvet":[0.5,0.5,0.5],"velvet_exp":0,"velvet_additive":false,"normalmap_factor":1,"normalmap_tangent":true,"bumpmap_factor":1,"displacementmap_factor":0.1,"use_scene_ambient":true,"point_size":1,"extra":[0,0,0,1],"needsUpdate":true,"detail_factor":0,"detail_scale":[10,10],"emissive_extra":0,"specular_factor":0.10000000149011612,"specular_gloss":10,"renderShadowInstance":null,"material_class":"StandardMaterial"},"flags":{"visible":true,"is_static":false,"selectable":true,"locked":false},"components":[["Transform",{"object_class":"Transform","uid":"@COMP-6c3ed4-1f6330-10883e6-1ad","position":[154.47592163085938,2690.3623046875,-3081.20849609375],"rotation":[-0.00026364997029304504,0.014544417150318623,-0.01812233403325081,0.9997299313545227],"scaling":[76.47595977783203,66.73668670654297,1],"matrix":[76.39337158203125,-2.771683692932129,-2.2232649326324463,0,2.4176840782165527,66.69284057617188,-0.07036149501800537,0,0.029090534895658493,-3.842865609060553e-11,0.9995768070220947,0,154.47592163085938,2690.3623046875,-3081.20849609375,1]}],["Sprite",{"enabled":true,"texture":"360_f_242339385_5ukgrwzbgvlsjjisgmysqeztqq1j6pt2.jpg","blend_mode":3,"frame":null,"flip_x":false,"filtering":true,"size":[100,100],"area":[0,0,1,1],"atlas":null,"uid":"@COMP-6c3ed4-1f6335-1303045-1b0","object_class":"Sprite"}]]},{"object_class":"SceneNode","name":"sky1","uid":"@NODE-6c3ed4-19a35e-14502ee-175","layers":3,"material":{"uid":"@MAT-6c3ed4-19a35e-1e28f47-176","uvs_matrix":[1,0,0,0,1,0,0,0,1],"textures":{"color":{"texture":"360_f_242339385_5ukgrwzbgvlsjjisgmysqeztqq1j6pt2.jpg","uvs":0,"wrap":0,"minFilter":0,"magFilter":0,"missing":"white","_must_update":true}},"flags":{"alpha_test":false,"alpha_test_shadows":false,"two_sided":false,"flip_normals":false,"depth_test":true,"depth_write":true,"ignore_lights":false,"cast_shadows":true,"receive_shadows":true,"ignore_frustum":false},"color":[1,1,1],"opacity":1,"queue":-1,"render_state":{"front_face":2305,"cull_face":true,"cull_face_mode":0,"depth_test":true,"depth_mask":true,"depth_func":513,"depth_range":[0,0],"blend":false,"blendFunc0":770,"blendFunc1":771,"colorMask0":true,"colorMask1":true,"colorMask2":true,"colorMask3":true,"stencil_test":false,"stencil_mask":255,"skip_blend":false,"skip_depth":false,"skip_stencil":false,"stencil_func_func":519,"stencil_func_ref":0,"stencil_func_mask":255,"stencil_op_sfail":7680,"stencil_op_dpfail":7680,"stencil_op_dppass":7680,"flags":0},"blend_mode":2,"diffuse":[1,1,1],"ambient":[1,1,1],"emissive":[0,0,0,0],"specular_on_top":false,"specular_on_alpha":false,"backlight_factor":0,"translucency":0,"reflection_factor":0,"reflection_fresnel":1,"reflection_specular":false,"velvet":[0.5,0.5,0.5],"velvet_exp":0,"velvet_additive":false,"normalmap_factor":1,"normalmap_tangent":true,"bumpmap_factor":1,"displacementmap_factor":0.1,"use_scene_ambient":true,"point_size":1,"extra":[0,0,0,1],"needsUpdate":true,"detail_factor":0,"detail_scale":[10,10],"emissive_extra":0,"specular_factor":0.10000000149011612,"specular_gloss":10,"renderShadowInstance":null,"material_class":"StandardMaterial"},"flags":{"visible":true,"is_static":false,"selectable":true,"locked":false},"components":[["Transform",{"object_class":"Transform","uid":"@COMP-6c3ed4-19a35d-11b5e38-174","position":[8.699000358581543,-0.000008332921424880624,3.873504638671875],"rotation":[-0.7071067690849304,0,0,0.7071067690849304],"scaling":[76.47595977783203,66.73668670654297,1],"matrix":[76.47595977783203,0,0,0,0,0.000002284299398525036,-66.73667907714844,0,0,0.9999999403953552,3.422854177870249e-8,0,8.699000358581543,-0.000008332921424880624,3.873504638671875,1]}],["Sprite",{"enabled":true,"texture":"360_f_242339385_5ukgrwzbgvlsjjisgmysqeztqq1j6pt2.jpg","blend_mode":3,"frame":null,"flip_x":false,"filtering":true,"size":[100,100],"area":[0,0,1,1],"atlas":null,"uid":"@COMP-6c3ed4-19a35e-14e6c45-177","object_class":"Sprite"}]]}],"components":[["GlobalInfo",{"ambient_color":[0.20000000298023224,0.20000000298023224,0.20000000298023224],"irradiance_color":[1,1,1],"irradiance":null,"textures":{},"render_settings":null,"uid":"@COMP-6c3ed4-9bd-1db6553-b","object_class":"GlobalInfo"}],["Camera",{"object_class":"Camera","uid":"@COMP-6c3ed4-9bd-199ad1d-c","layers":3,"enabled":true,"type":1,"eye":[0,146.2480010986328,411.4070129394531],"center":[11.01413631439209,91.13815307617188,-343.8333740234375],"up":[0,1,0],"near":0.1,"far":29880.3,"fov":45,"aspect":1,"orthographic":[-1,1,-1,1],"background_color":[0,0,0,1],"frustum_size":50,"viewport":[0,0,1,1],"render_to_texture":false,"frame":null,"show_frame":true,"clear_color":true,"clear_depth":true}],["Light",{"enabled":true,"illuminated_layers":255,"near":1,"far":500,"angle":45,"angle_end":60,"constant_diffuse":false,"use_specular":true,"att_start":0,"att_end":3605.68,"attenuation_type":2,"offset":0,"projective_texture":null,"use_target":false,"intensity":2,"frustum_size":50,"extra_texture":null,"type":1,"position":[100,2185.74853515625,108.21688842773438],"target":[0,0,0],"extra":[0,0,0,0],"up":[0,1,0],"color":[0.7570000290870667,0,0],"spot_cone":true,"cast_shadows":false,"uid":"@COMP-6c3ed4-9be-15434bc-d","object_class":"Light"}],["Skybox",{"enabled":true,"texture":null,"material":null,"use_environment":true,"gamma":false,"intensity":1,"bake_to_cubemap":false,"uid":"@COMP-6c3ed4-9e8-193cfdc-e","object_class":"Skybox"}],["CameraController",{"enabled":true,"no_button_action":5,"left_button_action":5,"right_button_action":0,"middle_button_action":0,"mouse_wheel_action":0,"keyboard_walk":true,"keyboard_walk_plane":true,"lock_mouse":true,"rot_speed":1,"walk_speed":2.59,"wheel_speed":1,"smooth":true,"render_crosshair":false,"uid":"@COMP-6c3ed4-db18a-1312415-35","object_class":"CameraController"}]]},"layer_names":["main","secondary"],"global_scripts":[],"external_scripts":[],"preloaded_resources":{},"texture_atlas":null,"local_resources":{}}
+{
+	"version": 0.5,
+	"uid": "@TREE-6c3ed4-598-1ec53ea-2",
+	"object_class": "Scene",
+	"external_repository": null,
+	"extra": {
+		"editor": {
+			"selected_node": "@NODE-6c3ed4-980a9-1cea92c-2d"
+		},
+		"viewport_layout": {
+			"mode": 1,
+			"viewports": [
+				{
+					"name": "perspective",
+					"viewport": [
+						0,
+						0,
+						1,
+						1
+					],
+					"render_settings": null,
+					"editor_camera": {
+						"object_class": "Camera",
+						"uid": "@CAM6c3ed4-991-1812f9c-9",
+						"layers": 255,
+						"enabled": true,
+						"type": 1,
+						"eye": [
+							-2.349058151245117,
+							197.97860717773438,
+							535.0230712890625
+						],
+						"center": [
+							8.698617935180664,
+							129.05528259277344,
+							-239.57647705078125
+						],
+						"up": [
+							0,
+							1,
+							0
+						],
+						"near": 0.1,
+						"far": 10000,
+						"fov": 45,
+						"aspect": 1,
+						"orthographic": [
+							-1,
+							1,
+							-1,
+							1
+						],
+						"background_color": [
+							0,
+							0,
+							0,
+							1
+						],
+						"frustum_size": 50,
+						"viewport": [
+							0,
+							0,
+							1,
+							1
+						],
+						"render_to_texture": false,
+						"frame": null,
+						"show_frame": true,
+						"clear_color": true,
+						"clear_depth": true
+					},
+					"scene_camera": null
+				}
+			]
+		}
+	},
+	"root": {
+		"object_class": "SceneNode",
+		"name": "root",
+		"uid": "@NODE-6c3ed4-9bd-1e19ae0-a",
+		"layers": 3,
+		"flags": {
+			"visible": true,
+			"is_static": false,
+			"selectable": true,
+			"locked": false
+		},
+		"children": [
+			{
+				"object_class": "SceneNode",
+				"name": "arms",
+				"uid": "@NODE-6c3ed4-d446-18011f1-10",
+				"layers": 3,
+				"material": {
+					"uid": "@MAT-6c3ed4-2be76-17d2ad8-15",
+					"uvs_matrix": [
+						1,
+						0,
+						0,
+						0,
+						1,
+						0,
+						0,
+						0,
+						1
+					],
+					"textures": {
+						"color": {
+							"texture": "Main/hands_white_diffuse.png",
+							"uvs": 0,
+							"wrap": 0,
+							"minFilter": 0,
+							"magFilter": 0,
+							"missing": "white",
+							"_must_update": true,
+							"index": 0
+						}
+					},
+					"flags": {
+						"alpha_test": false,
+						"alpha_test_shadows": false,
+						"two_sided": false,
+						"flip_normals": false,
+						"depth_test": true,
+						"depth_write": true,
+						"ignore_lights": false,
+						"cast_shadows": true,
+						"receive_shadows": true,
+						"ignore_frustum": false
+					},
+					"color": [
+						1,
+						1,
+						1
+					],
+					"opacity": 1,
+					"queue": -1,
+					"render_state": {
+						"front_face": 2305,
+						"cull_face": true,
+						"cull_face_mode": 0,
+						"depth_test": true,
+						"depth_mask": true,
+						"depth_func": 513,
+						"depth_range": [
+							0,
+							0
+						],
+						"blend": false,
+						"blendFunc0": 770,
+						"blendFunc1": 771,
+						"colorMask0": true,
+						"colorMask1": true,
+						"colorMask2": true,
+						"colorMask3": true,
+						"stencil_test": false,
+						"stencil_mask": 255,
+						"skip_blend": false,
+						"skip_depth": false,
+						"skip_stencil": false,
+						"stencil_func_func": 519,
+						"stencil_func_ref": 0,
+						"stencil_func_mask": 255,
+						"stencil_op_sfail": 7680,
+						"stencil_op_dpfail": 7680,
+						"stencil_op_dppass": 7680,
+						"flags": 0
+					},
+					"blend_mode": 2,
+					"diffuse": [
+						1,
+						1,
+						1
+					],
+					"ambient": [
+						1,
+						1,
+						1
+					],
+					"emissive": [
+						0,
+						0,
+						0,
+						0
+					],
+					"specular_on_top": false,
+					"specular_on_alpha": false,
+					"backlight_factor": 0,
+					"translucency": 0,
+					"reflection_factor": 0,
+					"reflection_fresnel": 1,
+					"reflection_specular": false,
+					"velvet": [
+						0.5,
+						0.5,
+						0.5
+					],
+					"velvet_exp": 0,
+					"velvet_additive": false,
+					"normalmap_factor": 1,
+					"normalmap_tangent": true,
+					"bumpmap_factor": 1,
+					"displacementmap_factor": 0.1,
+					"use_scene_ambient": true,
+					"point_size": 1,
+					"extra": [
+						0,
+						0,
+						0,
+						1
+					],
+					"needsUpdate": true,
+					"detail_factor": 0,
+					"detail_scale": [
+						10,
+						10
+					],
+					"emissive_extra": 0,
+					"specular_factor": 0.10000000149011612,
+					"specular_gloss": 10,
+					"renderShadowInstance": null,
+					"material_class": "StandardMaterial"
+				},
+				"flags": {
+					"visible": true,
+					"is_static": false,
+					"selectable": true,
+					"locked": false
+				},
+				"components": [
+					[
+						"Transform",
+						{
+							"object_class": "Transform",
+							"uid": "@COMP-6c3ed4-d446-1934af7-11",
+							"position": [
+								0,
+								0,
+								0
+							],
+							"rotation": [
+								0,
+								0,
+								0,
+								1
+							],
+							"scaling": [
+								7.04691219329834,
+								6.685871124267578,
+								6.046027183532715
+							],
+							"matrix": [
+								7.04691219329834,
+								0,
+								0,
+								0,
+								0,
+								6.685871124267578,
+								0,
+								0,
+								0,
+								0,
+								6.046027183532715,
+								0,
+								0,
+								0,
+								0,
+								1
+							]
+						}
+					],
+					[
+						"MeshRenderer",
+						{
+							"object_class": "MeshRenderer",
+							"enabled": true,
+							"uid": "@COMP-6c3ed4-d447-10f9772-13",
+							"mesh": "demogorgon_(stranger_things).obj.wbin",
+							"lod_mesh": "demogorgon_(stranger_things).obj.wbin",
+							"submesh_id": 0,
+							"submaterials": []
+						}
+					]
+				]
+			},
+			{
+				"object_class": "SceneNode",
+				"name": "teeth",
+				"uid": "@NODE-6c3ed4-61d18-13f9100-1c",
+				"layers": 3,
+				"material": {
+					"uid": "@MAT-6c3ed4-61d19-13e6ea7-1d",
+					"uvs_matrix": [
+						1,
+						0,
+						0,
+						0,
+						1,
+						0,
+						0,
+						0,
+						1
+					],
+					"textures": {
+						"color": {
+							"texture": "demogorgon_(stranger_things)_miqkteeth00_g.png",
+							"uvs": 0,
+							"wrap": 0,
+							"minFilter": 0,
+							"magFilter": 0,
+							"missing": "white",
+							"_must_update": true,
+							"index": 0
+						}
+					},
+					"flags": {
+						"alpha_test": false,
+						"alpha_test_shadows": false,
+						"two_sided": false,
+						"flip_normals": false,
+						"depth_test": true,
+						"depth_write": true,
+						"ignore_lights": false,
+						"cast_shadows": true,
+						"receive_shadows": true,
+						"ignore_frustum": false
+					},
+					"color": [
+						1,
+						1,
+						1
+					],
+					"opacity": 1,
+					"queue": -1,
+					"render_state": {
+						"front_face": 2305,
+						"cull_face": true,
+						"cull_face_mode": 0,
+						"depth_test": true,
+						"depth_mask": true,
+						"depth_func": 513,
+						"depth_range": [
+							0,
+							0
+						],
+						"blend": false,
+						"blendFunc0": 770,
+						"blendFunc1": 771,
+						"colorMask0": true,
+						"colorMask1": true,
+						"colorMask2": true,
+						"colorMask3": true,
+						"stencil_test": false,
+						"stencil_mask": 255,
+						"skip_blend": false,
+						"skip_depth": false,
+						"skip_stencil": false,
+						"stencil_func_func": 519,
+						"stencil_func_ref": 0,
+						"stencil_func_mask": 255,
+						"stencil_op_sfail": 7680,
+						"stencil_op_dpfail": 7680,
+						"stencil_op_dppass": 7680,
+						"flags": 0
+					},
+					"blend_mode": 2,
+					"diffuse": [
+						1,
+						1,
+						1
+					],
+					"ambient": [
+						1,
+						1,
+						1
+					],
+					"emissive": [
+						0,
+						0,
+						0,
+						0
+					],
+					"specular_on_top": false,
+					"specular_on_alpha": false,
+					"backlight_factor": 0,
+					"translucency": 0,
+					"reflection_factor": 0,
+					"reflection_fresnel": 1,
+					"reflection_specular": false,
+					"velvet": [
+						0.5,
+						0.5,
+						0.5
+					],
+					"velvet_exp": 0,
+					"velvet_additive": false,
+					"normalmap_factor": 1,
+					"normalmap_tangent": true,
+					"bumpmap_factor": 1,
+					"displacementmap_factor": 0.1,
+					"use_scene_ambient": true,
+					"point_size": 1,
+					"extra": [
+						0,
+						0,
+						0,
+						1
+					],
+					"needsUpdate": true,
+					"detail_factor": 0,
+					"detail_scale": [
+						10,
+						10
+					],
+					"emissive_extra": 0,
+					"specular_factor": 0.10000000149011612,
+					"specular_gloss": 10,
+					"renderShadowInstance": null,
+					"material_class": "StandardMaterial"
+				},
+				"flags": {
+					"visible": true,
+					"is_static": false,
+					"selectable": true,
+					"locked": false
+				},
+				"components": [
+					[
+						"Transform",
+						{
+							"object_class": "Transform",
+							"uid": "@COMP-6c3ed4-61d16-185c776-1b",
+							"position": [
+								0,
+								0,
+								0
+							],
+							"rotation": [
+								0,
+								0,
+								0,
+								1
+							],
+							"scaling": [
+								7.04691219329834,
+								6.685871124267578,
+								6.046027183532715
+							],
+							"matrix": [
+								7.04691219329834,
+								0,
+								0,
+								0,
+								0,
+								6.685871124267578,
+								0,
+								0,
+								0,
+								0,
+								6.046027183532715,
+								0,
+								0,
+								0,
+								0,
+								1
+							]
+						}
+					],
+					[
+						"MeshRenderer",
+						{
+							"object_class": "MeshRenderer",
+							"enabled": true,
+							"uid": "@COMP-6c3ed4-61d1e-1e456e5-1f",
+							"mesh": "demogorgon_(stranger_things).obj.wbin",
+							"lod_mesh": "demogorgon_(stranger_things).obj.wbin",
+							"submesh_id": 3,
+							"submaterials": []
+						}
+					]
+				]
+			},
+			{
+				"object_class": "SceneNode",
+				"name": "body",
+				"uid": "@NODE-6c3ed4-7b970-10cdefd-22",
+				"layers": 3,
+				"material": {
+					"uid": "@MAT-6c3ed4-7b972-1b81d35-23",
+					"uvs_matrix": [
+						1,
+						0,
+						0,
+						0,
+						1,
+						0,
+						0,
+						0,
+						1
+					],
+					"textures": {
+						"color": {
+							"texture": "chest_white_diffuse.png",
+							"uvs": 0,
+							"wrap": 0,
+							"minFilter": 0,
+							"magFilter": 0,
+							"missing": "white",
+							"_must_update": true,
+							"index": 0
+						}
+					},
+					"flags": {
+						"alpha_test": false,
+						"alpha_test_shadows": false,
+						"two_sided": false,
+						"flip_normals": false,
+						"depth_test": true,
+						"depth_write": true,
+						"ignore_lights": false,
+						"cast_shadows": true,
+						"receive_shadows": true,
+						"ignore_frustum": false
+					},
+					"color": [
+						1,
+						1,
+						1
+					],
+					"opacity": 1,
+					"queue": -1,
+					"render_state": {
+						"front_face": 2305,
+						"cull_face": true,
+						"cull_face_mode": 0,
+						"depth_test": true,
+						"depth_mask": true,
+						"depth_func": 513,
+						"depth_range": [
+							0,
+							0
+						],
+						"blend": false,
+						"blendFunc0": 770,
+						"blendFunc1": 771,
+						"colorMask0": true,
+						"colorMask1": true,
+						"colorMask2": true,
+						"colorMask3": true,
+						"stencil_test": false,
+						"stencil_mask": 255,
+						"skip_blend": false,
+						"skip_depth": false,
+						"skip_stencil": false,
+						"stencil_func_func": 519,
+						"stencil_func_ref": 0,
+						"stencil_func_mask": 255,
+						"stencil_op_sfail": 7680,
+						"stencil_op_dpfail": 7680,
+						"stencil_op_dppass": 7680,
+						"flags": 0
+					},
+					"blend_mode": 2,
+					"diffuse": [
+						1,
+						1,
+						1
+					],
+					"ambient": [
+						1,
+						1,
+						1
+					],
+					"emissive": [
+						0,
+						0,
+						0,
+						0
+					],
+					"specular_on_top": false,
+					"specular_on_alpha": false,
+					"backlight_factor": 0,
+					"translucency": 0,
+					"reflection_factor": 0,
+					"reflection_fresnel": 1,
+					"reflection_specular": false,
+					"velvet": [
+						0.5,
+						0.5,
+						0.5
+					],
+					"velvet_exp": 0,
+					"velvet_additive": false,
+					"normalmap_factor": 1,
+					"normalmap_tangent": true,
+					"bumpmap_factor": 1,
+					"displacementmap_factor": 0.1,
+					"use_scene_ambient": true,
+					"point_size": 1,
+					"extra": [
+						0,
+						0,
+						0,
+						1
+					],
+					"needsUpdate": true,
+					"detail_factor": 0,
+					"detail_scale": [
+						10,
+						10
+					],
+					"emissive_extra": 0,
+					"specular_factor": 0.10000000149011612,
+					"specular_gloss": 10,
+					"renderShadowInstance": null,
+					"material_class": "StandardMaterial"
+				},
+				"flags": {
+					"visible": true,
+					"is_static": false,
+					"selectable": true,
+					"locked": false
+				},
+				"components": [
+					[
+						"Transform",
+						{
+							"object_class": "Transform",
+							"uid": "@COMP-6c3ed4-7b96f-12bb839-21",
+							"position": [
+								0,
+								0,
+								0
+							],
+							"rotation": [
+								0,
+								0,
+								0,
+								1
+							],
+							"scaling": [
+								7.04691219329834,
+								6.685871124267578,
+								6.046027183532715
+							],
+							"matrix": [
+								7.04691219329834,
+								0,
+								0,
+								0,
+								0,
+								6.685871124267578,
+								0,
+								0,
+								0,
+								0,
+								6.046027183532715,
+								0,
+								0,
+								0,
+								0,
+								1
+							]
+						}
+					],
+					[
+						"MeshRenderer",
+						{
+							"object_class": "MeshRenderer",
+							"enabled": true,
+							"uid": "@COMP-6c3ed4-7b977-1923f03-25",
+							"mesh": "demogorgon_(stranger_things).obj.wbin",
+							"lod_mesh": "demogorgon_(stranger_things).obj.wbin",
+							"submesh_id": 1,
+							"submaterials": []
+						}
+					]
+				]
+			},
+			{
+				"object_class": "SceneNode",
+				"name": "head",
+				"uid": "@NODE-6c3ed4-980a9-1cea92c-2d",
+				"layers": 3,
+				"material": {
+					"uid": "@MAT-6c3ed4-980a9-1647002-2e",
+					"uvs_matrix": [
+						1,
+						0,
+						0,
+						0,
+						1,
+						0,
+						0,
+						0,
+						1
+					],
+					"textures": {
+						"color": {
+							"texture": "mouth_white_diffuse.png",
+							"uvs": 0,
+							"wrap": 0,
+							"minFilter": 0,
+							"magFilter": 0,
+							"missing": "white",
+							"_must_update": true,
+							"index": 0
+						}
+					},
+					"flags": {
+						"alpha_test": false,
+						"alpha_test_shadows": false,
+						"two_sided": false,
+						"flip_normals": false,
+						"depth_test": true,
+						"depth_write": true,
+						"ignore_lights": false,
+						"cast_shadows": true,
+						"receive_shadows": true,
+						"ignore_frustum": false
+					},
+					"color": [
+						1,
+						1,
+						1
+					],
+					"opacity": 1,
+					"queue": -1,
+					"render_state": {
+						"front_face": 2305,
+						"cull_face": true,
+						"cull_face_mode": 0,
+						"depth_test": true,
+						"depth_mask": true,
+						"depth_func": 513,
+						"depth_range": [
+							0,
+							0
+						],
+						"blend": false,
+						"blendFunc0": 770,
+						"blendFunc1": 771,
+						"colorMask0": true,
+						"colorMask1": true,
+						"colorMask2": true,
+						"colorMask3": true,
+						"stencil_test": false,
+						"stencil_mask": 255,
+						"skip_blend": false,
+						"skip_depth": false,
+						"skip_stencil": false,
+						"stencil_func_func": 519,
+						"stencil_func_ref": 0,
+						"stencil_func_mask": 255,
+						"stencil_op_sfail": 7680,
+						"stencil_op_dpfail": 7680,
+						"stencil_op_dppass": 7680,
+						"flags": 0
+					},
+					"blend_mode": 2,
+					"diffuse": [
+						1,
+						1,
+						1
+					],
+					"ambient": [
+						1,
+						1,
+						1
+					],
+					"emissive": [
+						0,
+						0,
+						0,
+						0
+					],
+					"specular_on_top": false,
+					"specular_on_alpha": false,
+					"backlight_factor": 0,
+					"translucency": 0,
+					"reflection_factor": 0,
+					"reflection_fresnel": 1,
+					"reflection_specular": false,
+					"velvet": [
+						0.5,
+						0.5,
+						0.5
+					],
+					"velvet_exp": 0,
+					"velvet_additive": false,
+					"normalmap_factor": 1,
+					"normalmap_tangent": true,
+					"bumpmap_factor": 1,
+					"displacementmap_factor": 0.1,
+					"use_scene_ambient": true,
+					"point_size": 1,
+					"extra": [
+						0,
+						0,
+						0,
+						1
+					],
+					"needsUpdate": true,
+					"detail_factor": 0,
+					"detail_scale": [
+						10,
+						10
+					],
+					"emissive_extra": 0,
+					"specular_factor": 0.10000000149011612,
+					"specular_gloss": 10,
+					"renderShadowInstance": null,
+					"material_class": "StandardMaterial"
+				},
+				"flags": {
+					"visible": true,
+					"is_static": false,
+					"selectable": true,
+					"locked": false
+				},
+				"components": [
+					[
+						"Transform",
+						{
+							"object_class": "Transform",
+							"uid": "@COMP-6c3ed4-980a8-1f9492a-2c",
+							"position": [
+								0,
+								0,
+								0
+							],
+							"rotation": [
+								0,
+								0,
+								0,
+								1
+							],
+							"scaling": [
+								7.046999931335449,
+								6.685999870300293,
+								6.046000003814697
+							],
+							"matrix": [
+								7.046999931335449,
+								0,
+								0,
+								0,
+								0,
+								6.685999870300293,
+								0,
+								0,
+								0,
+								0,
+								6.046000003814697,
+								0,
+								0,
+								0,
+								0,
+								1
+							]
+						}
+					],
+					[
+						"MeshRenderer",
+						{
+							"object_class": "MeshRenderer",
+							"enabled": true,
+							"uid": "@COMP-6c3ed4-980aa-1ff91a4-30",
+							"mesh": "demogorgon_(stranger_things).obj.wbin",
+							"lod_mesh": "demogorgon_(stranger_things).obj.wbin",
+							"submesh_id": 2,
+							"submaterials": []
+						}
+					]
+				]
+			},
+			{
+				"object_class": "SceneNode",
+				"name": "ground",
+				"uid": "@NODE-6c3ed4-16eef6-1c62e76-16d",
+				"layers": 3,
+				"material": {
+					"uid": "@MAT-6c3ed4-1940ce-14199f1-172",
+					"uvs_matrix": [
+						1,
+						0,
+						0,
+						0,
+						1,
+						0,
+						0,
+						0,
+						1
+					],
+					"textures": {
+						"color": {
+							"texture": "360_f_242339385_5ukgrwzbgvlsjjisgmysqeztqq1j6pt2.jpg",
+							"uvs": 0,
+							"wrap": 0,
+							"minFilter": 0,
+							"magFilter": 0,
+							"missing": "white",
+							"_must_update": true
+						}
+					},
+					"flags": {
+						"alpha_test": false,
+						"alpha_test_shadows": false,
+						"two_sided": false,
+						"flip_normals": false,
+						"depth_test": true,
+						"depth_write": true,
+						"ignore_lights": false,
+						"cast_shadows": true,
+						"receive_shadows": true,
+						"ignore_frustum": false
+					},
+					"color": [
+						1,
+						1,
+						1
+					],
+					"opacity": 1,
+					"queue": -1,
+					"render_state": {
+						"front_face": 2305,
+						"cull_face": true,
+						"cull_face_mode": 0,
+						"depth_test": true,
+						"depth_mask": true,
+						"depth_func": 513,
+						"depth_range": [
+							0,
+							0
+						],
+						"blend": false,
+						"blendFunc0": 770,
+						"blendFunc1": 771,
+						"colorMask0": true,
+						"colorMask1": true,
+						"colorMask2": true,
+						"colorMask3": true,
+						"stencil_test": false,
+						"stencil_mask": 255,
+						"skip_blend": false,
+						"skip_depth": false,
+						"skip_stencil": false,
+						"stencil_func_func": 519,
+						"stencil_func_ref": 0,
+						"stencil_func_mask": 255,
+						"stencil_op_sfail": 7680,
+						"stencil_op_dpfail": 7680,
+						"stencil_op_dppass": 7680,
+						"flags": 0
+					},
+					"blend_mode": 2,
+					"diffuse": [
+						1,
+						1,
+						1
+					],
+					"ambient": [
+						1,
+						1,
+						1
+					],
+					"emissive": [
+						0,
+						0,
+						0,
+						0
+					],
+					"specular_on_top": false,
+					"specular_on_alpha": false,
+					"backlight_factor": 0,
+					"translucency": 0,
+					"reflection_factor": 0,
+					"reflection_fresnel": 1,
+					"reflection_specular": false,
+					"velvet": [
+						0.5,
+						0.5,
+						0.5
+					],
+					"velvet_exp": 0,
+					"velvet_additive": false,
+					"normalmap_factor": 1,
+					"normalmap_tangent": true,
+					"bumpmap_factor": 1,
+					"displacementmap_factor": 0.1,
+					"use_scene_ambient": true,
+					"point_size": 1,
+					"extra": [
+						0,
+						0,
+						0,
+						1
+					],
+					"needsUpdate": true,
+					"detail_factor": 0,
+					"detail_scale": [
+						10,
+						10
+					],
+					"emissive_extra": 0,
+					"specular_factor": 0.10000000149011612,
+					"specular_gloss": 10,
+					"renderShadowInstance": null,
+					"material_class": "StandardMaterial"
+				},
+				"flags": {
+					"visible": true,
+					"is_static": false,
+					"selectable": true,
+					"locked": false
+				},
+				"components": [
+					[
+						"Transform",
+						{
+							"object_class": "Transform",
+							"uid": "@COMP-6c3ed4-16eef6-11bfc3d-16e",
+							"position": [
+								349.304443359375,
+								3123.52392578125,
+								3073.263427734375
+							],
+							"rotation": [
+								-0.00026364997029304504,
+								0.014544417150318623,
+								-0.01812233403325081,
+								0.9997299313545227
+							],
+							"scaling": [
+								76.47595977783203,
+								66.73668670654297,
+								1
+							],
+							"matrix": [
+								76.39337158203125,
+								-2.771683692932129,
+								-2.2232649326324463,
+								0,
+								2.4176840782165527,
+								66.69284057617188,
+								-0.07036149501800537,
+								0,
+								0.029090534895658493,
+								-3.842865609060553e-11,
+								0.9995768070220947,
+								0,
+								349.304443359375,
+								3123.52392578125,
+								3073.263427734375,
+								1
+							]
+						}
+					],
+					[
+						"Sprite",
+						{
+							"enabled": true,
+							"texture": "360_f_242339385_5ukgrwzbgvlsjjisgmysqeztqq1j6pt2.jpg",
+							"blend_mode": 3,
+							"frame": null,
+							"flip_x": false,
+							"filtering": true,
+							"size": [
+								100,
+								100
+							],
+							"area": [
+								0,
+								0,
+								1,
+								1
+							],
+							"atlas": null,
+							"uid": "@COMP-6c3ed4-17338f-1bcb0fe-16f",
+							"object_class": "Sprite"
+						}
+					]
+				]
+			},
+			{
+				"object_class": "SceneNode",
+				"name": "ground",
+				"uid": "@NODE-6c3ed4-1c326c-13a5cbe-1a7",
+				"layers": 3,
+				"material": {
+					"uid": "@MAT-6c3ed4-1c326c-113c878-1a8",
+					"uvs_matrix": [
+						1,
+						0,
+						0,
+						0,
+						1,
+						0,
+						0,
+						0,
+						1
+					],
+					"textures": {
+						"color": {
+							"texture": "360_f_242339385_5ukgrwzbgvlsjjisgmysqeztqq1j6pt2.jpg",
+							"uvs": 0,
+							"wrap": 0,
+							"minFilter": 0,
+							"magFilter": 0,
+							"missing": "white",
+							"_must_update": true
+						}
+					},
+					"flags": {
+						"alpha_test": false,
+						"alpha_test_shadows": false,
+						"two_sided": false,
+						"flip_normals": false,
+						"depth_test": true,
+						"depth_write": true,
+						"ignore_lights": false,
+						"cast_shadows": true,
+						"receive_shadows": true,
+						"ignore_frustum": false
+					},
+					"color": [
+						1,
+						1,
+						1
+					],
+					"opacity": 1,
+					"queue": -1,
+					"render_state": {
+						"front_face": 2305,
+						"cull_face": true,
+						"cull_face_mode": 0,
+						"depth_test": true,
+						"depth_mask": true,
+						"depth_func": 513,
+						"depth_range": [
+							0,
+							0
+						],
+						"blend": false,
+						"blendFunc0": 770,
+						"blendFunc1": 771,
+						"colorMask0": true,
+						"colorMask1": true,
+						"colorMask2": true,
+						"colorMask3": true,
+						"stencil_test": false,
+						"stencil_mask": 255,
+						"skip_blend": false,
+						"skip_depth": false,
+						"skip_stencil": false,
+						"stencil_func_func": 519,
+						"stencil_func_ref": 0,
+						"stencil_func_mask": 255,
+						"stencil_op_sfail": 7680,
+						"stencil_op_dpfail": 7680,
+						"stencil_op_dppass": 7680,
+						"flags": 0
+					},
+					"blend_mode": 2,
+					"diffuse": [
+						1,
+						1,
+						1
+					],
+					"ambient": [
+						1,
+						1,
+						1
+					],
+					"emissive": [
+						0,
+						0,
+						0,
+						0
+					],
+					"specular_on_top": false,
+					"specular_on_alpha": false,
+					"backlight_factor": 0,
+					"translucency": 0,
+					"reflection_factor": 0,
+					"reflection_fresnel": 1,
+					"reflection_specular": false,
+					"velvet": [
+						0.5,
+						0.5,
+						0.5
+					],
+					"velvet_exp": 0,
+					"velvet_additive": false,
+					"normalmap_factor": 1,
+					"normalmap_tangent": true,
+					"bumpmap_factor": 1,
+					"displacementmap_factor": 0.1,
+					"use_scene_ambient": true,
+					"point_size": 1,
+					"extra": [
+						0,
+						0,
+						0,
+						1
+					],
+					"needsUpdate": true,
+					"detail_factor": 0,
+					"detail_scale": [
+						10,
+						10
+					],
+					"emissive_extra": 0,
+					"specular_factor": 0.10000000149011612,
+					"specular_gloss": 10,
+					"renderShadowInstance": null,
+					"material_class": "StandardMaterial"
+				},
+				"flags": {
+					"visible": true,
+					"is_static": false,
+					"selectable": true,
+					"locked": false
+				},
+				"components": [
+					[
+						"Transform",
+						{
+							"object_class": "Transform",
+							"uid": "@COMP-6c3ed4-1c326b-1249f63-1a6",
+							"position": [
+								3465.62548828125,
+								2576.491943359375,
+								152.8856964111328
+							],
+							"rotation": [
+								0.012137112207710743,
+								0.7069787383079529,
+								-0.013457419350743294,
+								0.7070026397705078
+							],
+							"scaling": [
+								90.80812072753906,
+								66.73668670654297,
+								1
+							],
+							"matrix": [
+								-0.000007002229722274933,
+								-0.16958428919315338,
+								-90.80796813964844,
+								0,
+								2.415215492248535,
+								66.6928482055664,
+								-0.12454921007156372,
+								0,
+								0.9993450045585632,
+								-0.03619015961885452,
+								0.00006750817556167021,
+								0,
+								3465.62548828125,
+								2576.491943359375,
+								152.8856964111328,
+								1
+							]
+						}
+					],
+					[
+						"Sprite",
+						{
+							"enabled": true,
+							"texture": "360_f_242339385_5ukgrwzbgvlsjjisgmysqeztqq1j6pt2.jpg",
+							"blend_mode": 3,
+							"frame": null,
+							"flip_x": false,
+							"filtering": true,
+							"size": [
+								100,
+								100
+							],
+							"area": [
+								0,
+								0,
+								1,
+								1
+							],
+							"atlas": null,
+							"uid": "@COMP-6c3ed4-1c326c-12d97d8-1a9",
+							"object_class": "Sprite"
+						}
+					]
+				]
+			},
+			{
+				"object_class": "SceneNode",
+				"name": "ground",
+				"uid": "@NODE-6c3ed4-200faf-15e0c98-1b5",
+				"layers": 3,
+				"material": {
+					"uid": "@MAT-6c3ed4-200faf-189d3e2-1b6",
+					"uvs_matrix": [
+						1,
+						0,
+						0,
+						0,
+						1,
+						0,
+						0,
+						0,
+						1
+					],
+					"textures": {
+						"color": {
+							"texture": "360_f_242339385_5ukgrwzbgvlsjjisgmysqeztqq1j6pt2.jpg",
+							"uvs": 0,
+							"wrap": 0,
+							"minFilter": 0,
+							"magFilter": 0,
+							"missing": "white",
+							"_must_update": true
+						}
+					},
+					"flags": {
+						"alpha_test": false,
+						"alpha_test_shadows": false,
+						"two_sided": false,
+						"flip_normals": false,
+						"depth_test": true,
+						"depth_write": true,
+						"ignore_lights": false,
+						"cast_shadows": true,
+						"receive_shadows": true,
+						"ignore_frustum": false
+					},
+					"color": [
+						1,
+						1,
+						1
+					],
+					"opacity": 1,
+					"queue": -1,
+					"render_state": {
+						"front_face": 2305,
+						"cull_face": true,
+						"cull_face_mode": 0,
+						"depth_test": true,
+						"depth_mask": true,
+						"depth_func": 513,
+						"depth_range": [
+							0,
+							0
+						],
+						"blend": false,
+						"blendFunc0": 770,
+						"blendFunc1": 771,
+						"colorMask0": true,
+						"colorMask1": true,
+						"colorMask2": true,
+						"colorMask3": true,
+						"stencil_test": false,
+						"stencil_mask": 255,
+						"skip_blend": false,
+						"skip_depth": false,
+						"skip_stencil": false,
+						"stencil_func_func": 519,
+						"stencil_func_ref": 0,
+						"stencil_func_mask": 255,
+						"stencil_op_sfail": 7680,
+						"stencil_op_dpfail": 7680,
+						"stencil_op_dppass": 7680,
+						"flags": 0
+					},
+					"blend_mode": 2,
+					"diffuse": [
+						1,
+						1,
+						1
+					],
+					"ambient": [
+						1,
+						1,
+						1
+					],
+					"emissive": [
+						0,
+						0,
+						0,
+						0
+					],
+					"specular_on_top": false,
+					"specular_on_alpha": false,
+					"backlight_factor": 0,
+					"translucency": 0,
+					"reflection_factor": 0,
+					"reflection_fresnel": 1,
+					"reflection_specular": false,
+					"velvet": [
+						0.5,
+						0.5,
+						0.5
+					],
+					"velvet_exp": 0,
+					"velvet_additive": false,
+					"normalmap_factor": 1,
+					"normalmap_tangent": true,
+					"bumpmap_factor": 1,
+					"displacementmap_factor": 0.1,
+					"use_scene_ambient": true,
+					"point_size": 1,
+					"extra": [
+						0,
+						0,
+						0,
+						1
+					],
+					"needsUpdate": true,
+					"detail_factor": 0,
+					"detail_scale": [
+						10,
+						10
+					],
+					"emissive_extra": 0,
+					"specular_factor": 0.10000000149011612,
+					"specular_gloss": 10,
+					"renderShadowInstance": null,
+					"material_class": "StandardMaterial"
+				},
+				"flags": {
+					"visible": true,
+					"is_static": false,
+					"selectable": true,
+					"locked": false
+				},
+				"components": [
+					[
+						"Transform",
+						{
+							"object_class": "Transform",
+							"uid": "@COMP-6c3ed4-200fad-170d6d3-1b4",
+							"position": [
+								-3171.408203125,
+								2816.8447265625,
+								152.43731689453125
+							],
+							"rotation": [
+								0.012137112207710743,
+								0.7069787383079529,
+								-0.013457419350743294,
+								0.7070026397705078
+							],
+							"scaling": [
+								90.80812072753906,
+								66.73668670654297,
+								1
+							],
+							"matrix": [
+								-0.000007002229722274933,
+								-0.16958428919315338,
+								-90.80796813964844,
+								0,
+								2.415215492248535,
+								66.6928482055664,
+								-0.12454921007156372,
+								0,
+								0.9993450045585632,
+								-0.03619015961885452,
+								0.00006750817556167021,
+								0,
+								-3171.408203125,
+								2816.8447265625,
+								152.43731689453125,
+								1
+							]
+						}
+					],
+					[
+						"Sprite",
+						{
+							"enabled": true,
+							"texture": "360_f_242339385_5ukgrwzbgvlsjjisgmysqeztqq1j6pt2.jpg",
+							"blend_mode": 3,
+							"frame": null,
+							"flip_x": false,
+							"filtering": true,
+							"size": [
+								100,
+								100
+							],
+							"area": [
+								0,
+								0,
+								1,
+								1
+							],
+							"atlas": null,
+							"uid": "@COMP-6c3ed4-200fb4-1563f17-1b7",
+							"object_class": "Sprite"
+						}
+					]
+				]
+			},
+			{
+				"object_class": "SceneNode",
+				"name": "ground",
+				"uid": "@NODE-6c3ed4-1f6335-1d9e0cb-1ae",
+				"layers": 3,
+				"material": {
+					"uid": "@MAT-6c3ed4-1f6335-12f100b-1af",
+					"uvs_matrix": [
+						1,
+						0,
+						0,
+						0,
+						1,
+						0,
+						0,
+						0,
+						1
+					],
+					"textures": {
+						"color": {
+							"texture": "360_f_242339385_5ukgrwzbgvlsjjisgmysqeztqq1j6pt2.jpg",
+							"uvs": 0,
+							"wrap": 0,
+							"minFilter": 0,
+							"magFilter": 0,
+							"missing": "white",
+							"_must_update": true
+						}
+					},
+					"flags": {
+						"alpha_test": false,
+						"alpha_test_shadows": false,
+						"two_sided": false,
+						"flip_normals": false,
+						"depth_test": true,
+						"depth_write": true,
+						"ignore_lights": false,
+						"cast_shadows": true,
+						"receive_shadows": true,
+						"ignore_frustum": false
+					},
+					"color": [
+						1,
+						1,
+						1
+					],
+					"opacity": 1,
+					"queue": -1,
+					"render_state": {
+						"front_face": 2305,
+						"cull_face": true,
+						"cull_face_mode": 0,
+						"depth_test": true,
+						"depth_mask": true,
+						"depth_func": 513,
+						"depth_range": [
+							0,
+							0
+						],
+						"blend": false,
+						"blendFunc0": 770,
+						"blendFunc1": 771,
+						"colorMask0": true,
+						"colorMask1": true,
+						"colorMask2": true,
+						"colorMask3": true,
+						"stencil_test": false,
+						"stencil_mask": 255,
+						"skip_blend": false,
+						"skip_depth": false,
+						"skip_stencil": false,
+						"stencil_func_func": 519,
+						"stencil_func_ref": 0,
+						"stencil_func_mask": 255,
+						"stencil_op_sfail": 7680,
+						"stencil_op_dpfail": 7680,
+						"stencil_op_dppass": 7680,
+						"flags": 0
+					},
+					"blend_mode": 2,
+					"diffuse": [
+						1,
+						1,
+						1
+					],
+					"ambient": [
+						1,
+						1,
+						1
+					],
+					"emissive": [
+						0,
+						0,
+						0,
+						0
+					],
+					"specular_on_top": false,
+					"specular_on_alpha": false,
+					"backlight_factor": 0,
+					"translucency": 0,
+					"reflection_factor": 0,
+					"reflection_fresnel": 1,
+					"reflection_specular": false,
+					"velvet": [
+						0.5,
+						0.5,
+						0.5
+					],
+					"velvet_exp": 0,
+					"velvet_additive": false,
+					"normalmap_factor": 1,
+					"normalmap_tangent": true,
+					"bumpmap_factor": 1,
+					"displacementmap_factor": 0.1,
+					"use_scene_ambient": true,
+					"point_size": 1,
+					"extra": [
+						0,
+						0,
+						0,
+						1
+					],
+					"needsUpdate": true,
+					"detail_factor": 0,
+					"detail_scale": [
+						10,
+						10
+					],
+					"emissive_extra": 0,
+					"specular_factor": 0.10000000149011612,
+					"specular_gloss": 10,
+					"renderShadowInstance": null,
+					"material_class": "StandardMaterial"
+				},
+				"flags": {
+					"visible": true,
+					"is_static": false,
+					"selectable": true,
+					"locked": false
+				},
+				"components": [
+					[
+						"Transform",
+						{
+							"object_class": "Transform",
+							"uid": "@COMP-6c3ed4-1f6330-10883e6-1ad",
+							"position": [
+								154.47592163085938,
+								2690.3623046875,
+								-3081.20849609375
+							],
+							"rotation": [
+								-0.00026364997029304504,
+								0.014544417150318623,
+								-0.01812233403325081,
+								0.9997299313545227
+							],
+							"scaling": [
+								76.47595977783203,
+								66.73668670654297,
+								1
+							],
+							"matrix": [
+								76.39337158203125,
+								-2.771683692932129,
+								-2.2232649326324463,
+								0,
+								2.4176840782165527,
+								66.69284057617188,
+								-0.07036149501800537,
+								0,
+								0.029090534895658493,
+								-3.842865609060553e-11,
+								0.9995768070220947,
+								0,
+								154.47592163085938,
+								2690.3623046875,
+								-3081.20849609375,
+								1
+							]
+						}
+					],
+					[
+						"Sprite",
+						{
+							"enabled": true,
+							"texture": "360_f_242339385_5ukgrwzbgvlsjjisgmysqeztqq1j6pt2.jpg",
+							"blend_mode": 3,
+							"frame": null,
+							"flip_x": false,
+							"filtering": true,
+							"size": [
+								100,
+								100
+							],
+							"area": [
+								0,
+								0,
+								1,
+								1
+							],
+							"atlas": null,
+							"uid": "@COMP-6c3ed4-1f6335-1303045-1b0",
+							"object_class": "Sprite"
+						}
+					]
+				]
+			},
+			{
+				"object_class": "SceneNode",
+				"name": "sky1",
+				"uid": "@NODE-6c3ed4-19a35e-14502ee-175",
+				"layers": 3,
+				"material": {
+					"uid": "@MAT-6c3ed4-19a35e-1e28f47-176",
+					"uvs_matrix": [
+						1,
+						0,
+						0,
+						0,
+						1,
+						0,
+						0,
+						0,
+						1
+					],
+					"textures": {
+						"color": {
+							"texture": "360_f_242339385_5ukgrwzbgvlsjjisgmysqeztqq1j6pt2.jpg",
+							"uvs": 0,
+							"wrap": 0,
+							"minFilter": 0,
+							"magFilter": 0,
+							"missing": "white",
+							"_must_update": true
+						}
+					},
+					"flags": {
+						"alpha_test": false,
+						"alpha_test_shadows": false,
+						"two_sided": false,
+						"flip_normals": false,
+						"depth_test": true,
+						"depth_write": true,
+						"ignore_lights": false,
+						"cast_shadows": true,
+						"receive_shadows": true,
+						"ignore_frustum": false
+					},
+					"color": [
+						1,
+						1,
+						1
+					],
+					"opacity": 1,
+					"queue": -1,
+					"render_state": {
+						"front_face": 2305,
+						"cull_face": true,
+						"cull_face_mode": 0,
+						"depth_test": true,
+						"depth_mask": true,
+						"depth_func": 513,
+						"depth_range": [
+							0,
+							0
+						],
+						"blend": false,
+						"blendFunc0": 770,
+						"blendFunc1": 771,
+						"colorMask0": true,
+						"colorMask1": true,
+						"colorMask2": true,
+						"colorMask3": true,
+						"stencil_test": false,
+						"stencil_mask": 255,
+						"skip_blend": false,
+						"skip_depth": false,
+						"skip_stencil": false,
+						"stencil_func_func": 519,
+						"stencil_func_ref": 0,
+						"stencil_func_mask": 255,
+						"stencil_op_sfail": 7680,
+						"stencil_op_dpfail": 7680,
+						"stencil_op_dppass": 7680,
+						"flags": 0
+					},
+					"blend_mode": 2,
+					"diffuse": [
+						1,
+						1,
+						1
+					],
+					"ambient": [
+						1,
+						1,
+						1
+					],
+					"emissive": [
+						0,
+						0,
+						0,
+						0
+					],
+					"specular_on_top": false,
+					"specular_on_alpha": false,
+					"backlight_factor": 0,
+					"translucency": 0,
+					"reflection_factor": 0,
+					"reflection_fresnel": 1,
+					"reflection_specular": false,
+					"velvet": [
+						0.5,
+						0.5,
+						0.5
+					],
+					"velvet_exp": 0,
+					"velvet_additive": false,
+					"normalmap_factor": 1,
+					"normalmap_tangent": true,
+					"bumpmap_factor": 1,
+					"displacementmap_factor": 0.1,
+					"use_scene_ambient": true,
+					"point_size": 1,
+					"extra": [
+						0,
+						0,
+						0,
+						1
+					],
+					"needsUpdate": true,
+					"detail_factor": 0,
+					"detail_scale": [
+						10,
+						10
+					],
+					"emissive_extra": 0,
+					"specular_factor": 0.10000000149011612,
+					"specular_gloss": 10,
+					"renderShadowInstance": null,
+					"material_class": "StandardMaterial"
+				},
+				"flags": {
+					"visible": true,
+					"is_static": false,
+					"selectable": true,
+					"locked": false
+				},
+				"components": [
+					[
+						"Transform",
+						{
+							"object_class": "Transform",
+							"uid": "@COMP-6c3ed4-19a35d-11b5e38-174",
+							"position": [
+								8.699000358581543,
+								-0.000008332921424880624,
+								3.873504638671875
+							],
+							"rotation": [
+								-0.7071067690849304,
+								0,
+								0,
+								0.7071067690849304
+							],
+							"scaling": [
+								76.47595977783203,
+								66.73668670654297,
+								1
+							],
+							"matrix": [
+								76.47595977783203,
+								0,
+								0,
+								0,
+								0,
+								0.000002284299398525036,
+								-66.73667907714844,
+								0,
+								0,
+								0.9999999403953552,
+								3.422854177870249e-8,
+								0,
+								8.699000358581543,
+								-0.000008332921424880624,
+								3.873504638671875,
+								1
+							]
+						}
+					],
+					[
+						"Sprite",
+						{
+							"enabled": true,
+							"texture": "360_f_242339385_5ukgrwzbgvlsjjisgmysqeztqq1j6pt2.jpg",
+							"blend_mode": 3,
+							"frame": null,
+							"flip_x": false,
+							"filtering": true,
+							"size": [
+								100,
+								100
+							],
+							"area": [
+								0,
+								0,
+								1,
+								1
+							],
+							"atlas": null,
+							"uid": "@COMP-6c3ed4-19a35e-14e6c45-177",
+							"object_class": "Sprite"
+						}
+					]
+				]
+			}
+		],
+		"components": [
+			[
+				"GlobalInfo",
+				{
+					"ambient_color": [
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224
+					],
+					"irradiance_color": [
+						1,
+						1,
+						1
+					],
+					"irradiance": null,
+					"textures": {},
+					"render_settings": null,
+					"uid": "@COMP-6c3ed4-9bd-1db6553-b",
+					"object_class": "GlobalInfo"
+				}
+			],
+			[
+				"Camera",
+				{
+					"object_class": "Camera",
+					"uid": "@COMP-6c3ed4-9bd-199ad1d-c",
+					"layers": 3,
+					"enabled": true,
+					"type": 1,
+					"eye": [
+						0,
+						146.2480010986328,
+						411.4070129394531
+					],
+					"center": [
+						11.01413631439209,
+						91.13815307617188,
+						-343.8333740234375
+					],
+					"up": [
+						0,
+						1,
+						0
+					],
+					"near": 0.1,
+					"far": 29880.3,
+					"fov": 45,
+					"aspect": 1,
+					"orthographic": [
+						-1,
+						1,
+						-1,
+						1
+					],
+					"background_color": [
+						0,
+						0,
+						0,
+						1
+					],
+					"frustum_size": 50,
+					"viewport": [
+						0,
+						0,
+						1,
+						1
+					],
+					"render_to_texture": false,
+					"frame": null,
+					"show_frame": true,
+					"clear_color": true,
+					"clear_depth": true
+				}
+			],
+			[
+				"Light",
+				{
+					"enabled": true,
+					"illuminated_layers": 255,
+					"near": 1,
+					"far": 500,
+					"angle": 45,
+					"angle_end": 60,
+					"constant_diffuse": false,
+					"use_specular": true,
+					"att_start": 0,
+					"att_end": 3605.68,
+					"attenuation_type": 2,
+					"offset": 0,
+					"projective_texture": null,
+					"use_target": false,
+					"intensity": 2,
+					"frustum_size": 50,
+					"extra_texture": null,
+					"type": 1,
+					"position": [
+						100,
+						2185.74853515625,
+						108.21688842773438
+					],
+					"target": [
+						0,
+						0,
+						0
+					],
+					"extra": [
+						0,
+						0,
+						0,
+						0
+					],
+					"up": [
+						0,
+						1,
+						0
+					],
+					"color": [
+						0.7570000290870667,
+						0,
+						0
+					],
+					"spot_cone": true,
+					"cast_shadows": false,
+					"uid": "@COMP-6c3ed4-9be-15434bc-d",
+					"object_class": "Light"
+				}
+			],
+			[
+				"Skybox",
+				{
+					"enabled": true,
+					"texture": null,
+					"material": null,
+					"use_environment": true,
+					"gamma": false,
+					"intensity": 1,
+					"bake_to_cubemap": false,
+					"uid": "@COMP-6c3ed4-9e8-193cfdc-e",
+					"object_class": "Skybox"
+				}
+			],
+			[
+				"CameraController",
+				{
+					"enabled": true,
+					"no_button_action": 5,
+					"left_button_action": 5,
+					"right_button_action": 0,
+					"middle_button_action": 0,
+					"mouse_wheel_action": 0,
+					"keyboard_walk": true,
+					"keyboard_walk_plane": true,
+					"lock_mouse": true,
+					"rot_speed": 1,
+					"walk_speed": 2.59,
+					"wheel_speed": 1,
+					"smooth": true,
+					"render_crosshair": false,
+					"uid": "@COMP-6c3ed4-db18a-1312415-35",
+					"object_class": "CameraController"
+				}
+			]
+		]
+	},
+	"layer_names": [
+		"main",
+		"secondary"
+	],
+	"global_scripts": [],
+	"external_scripts": [],
+	"preloaded_resources": {},
+	"texture_atlas": null,
+	"local_resources": {}
+}
